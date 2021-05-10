@@ -1,0 +1,590 @@
+a.info {
+    color:black;
+}
+
+.active-breadcrumb {
+	color:#53D3DE;
+	font-size: 12px;
+}
+
+.form-column {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*==============================
+    Login - Register Pages Css
+================================*/
+
+
+
+.login-page-content {
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	padding-bottom: 35px;
+	text-align: center;
+    border-radius: 3px;
+    margin: auto;
+    width: 50%;
+}
+
+.register-page-content {
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	padding-bottom: 35px;
+	text-align: center;
+    border-radius: 3px; 
+}
+
+
+.login-form {
+	background-color: #dce3ee;
+	padding: 50px 20px 15px;
+}
+
+.login-form h3 {
+	color: #000;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.login-form input,
+.login-form select,
+.login-form button {
+	background-color: #fff;
+	border: 1px solid rgb(255, 255, 255);
+	color: #000;
+	margin: 10px 0;
+	padding: 10px 20px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.login-form input:focus {
+	border-color: rgb(0, 0, 0);
+}
+
+.login-form select:focus {
+	border-color: #fff;
+}
+
+.log-btn button {
+	background-color: #fff;
+	border-color: #fff;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    font-weight: 700;
+    
+}
+
+.log-btn button:hover {
+	background-color: #222;
+	border-color: #222;
+    color: #fff;
+
+}
+
+.or {
+	color: #000;
+	display: block;
+	font-weight: 600;
+	margin: 20px 0;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.or::after {
+	background-color: #ccc;
+	content: "";
+	height: 1px;
+	left: 35px;
+	position: absolute;
+	top: 10px;
+	width: 120px;
+}
+
+.or::before {
+	background-color: #ccc;
+	content: "";
+	height: 1px;
+	right: 35px;
+	position: absolute;
+	top: 10px;
+	width: 120px;
+}
+
+.login-with-btn {
+	background: -webkit-gradient(linear, left top, left bottom, from(#3b5998), to(#344e86));
+	background: linear-gradient(to bottom, #3b5998, #344e86);
+	border-radius: 3px;
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 0 30px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	padding: 10px;
+}
+
+.login-with-btn:hover {
+	color: #fff;
+}
+
+.login-with-btn .fa {
+	margin-right: 10px;
+}
+
+.create-ac {
+	color: #555;
+	margin: 15px 0 10px;
+}
+
+.create-ac a,
+.login-menu a {
+	color: #000;
+	font-weight: 600;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.create-ac a:hover,
+.login-menu a:hover {
+	color: #0E51B0;
+	text-decoration: underline;
+}
+
+#login-username,
+#login-password {
+	font-size: 10px;
+	color: #fff;
+	font-weight: 600;
+	float: left;
+}
+
+.buy-form p {
+	padding-top : 15px;
+}
+
+/*==============================
+    Account Page Css Start
+================================*/
+
+.profile-page-content {
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	padding-bottom: 20px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.profile {
+	color:#000;
+	background-color: rgb(175, 196, 224);
+}
+
+.profile h2 {
+	border-bottom: 1px solid #0E51B0;
+	font-weight: 400;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.profile h2 span {
+	float: right;
+	font-size: 18px;
+}
+
+.profile-info {
+	color: #666;
+	line-height: 2;
+	padding-top: 30px;
+}
+
+.profile-info h4 {
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.profile-op {
+	color: #555;
+	margin: 15px 0 10px;
+}
+
+.profile-op a{
+	color: #000;
+	font-weight: 600;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.profile-op a:hover{
+	color: #0E51B0;
+	text-decoration: underline;
+}
+
+/* My account */ 
+
+.account-spec {
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.account-spec .title{
+	font-weight: 700;
+	padding-right: 10px;
+	float: left;
+}
+
+.account-spec .value {
+	text-align: right;
+}
+
+/*==============================
+    Accordion
+================================*/
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*==============================
+   Multiple-steps form
+================================*/
+
+/** {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey
+}*/
+
+#heading {
+    text-transform: uppercase;
+    /*color: #673AB7;*/
+    font-weight: normal
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    position: relative
+}
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7;
+    outline-width: 0
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #673AB7;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 0px 10px 5px;
+    float: right
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92
+}
+
+#msform .action-button-previous {
+    width: 120px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px 10px 0px;
+    float: right
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000
+}
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+.fs-title {
+    font-size: 25px;
+    /*color: #673AB7;*/
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: left
+}
+
+.purple-text {
+    /*color: #673AB7;*/
+    font-weight: normal
+}
+
+.steps {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: right
+}
+
+.fieldlabels {
+    color: gray;
+    text-align: left
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+#progressbar .active {
+    color: #673AB7
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f13e"
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007"
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f030"
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+#progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7
+}
+
+.progress {
+    height: 20px
+}
+
+.progress-bar {
+    background-color: #673AB7
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover
+}
+
+
+.form-submit{
+	background-color: #673AB7;
+	border: 1px solid rgb(255, 255, 255);
+    border-color: #fff;
+	border-radius: 4px;
+    color: #fff;
+	margin: 10px 0;
+	padding: 10px 20px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+    width: 100%;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    font-weight: 700;
+}
+
+
+.form-submit:hover {
+	background-color: #fff;
+	border-color: #fff;
+    color: #673AB7;
+
+}
+
+.select-css {
+	display: block;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #444;
+	line-height: 1.3;
+	padding: .6em 1.4em .5em .8em;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: .5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+	  linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    
+}
+.select-css::-ms-expand {
+	display: none;
+}
+.select-css:hover {
+	border-color: #888;
+}
+.select-css:focus {
+	border-color: #aaa;
+	box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: #222;
+	outline: none;
+}
+.select-css option {
+	font-weight:normal;
+}
+
+.sum-up-label {
+    font-weight: bold;
+}
+
+tr .label{
+    font-weight: bold;
+
+}
